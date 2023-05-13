@@ -1,0 +1,19 @@
+{
+  "name": "e2e-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  },
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.32.2"
+  }
+}
+
