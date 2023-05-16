@@ -6,6 +6,10 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  reporter: "junit",
+  reporterOptions: {
+    mochaFile: "results/TEST-[hash].xml"
+  }
 });
 
 require('@applitools/eyes-cypress')(module);
