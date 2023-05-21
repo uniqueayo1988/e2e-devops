@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.660" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-21T13:47:25" tests="0" file="cypress/e2e/search.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Search for books" timestamp="2023-05-21T13:47:25" tests="2" time="9.648" failures="0">
+    <testcase name="Search for books should return one book with title Agile Testing" time="5.765" classname="should return one book with title Agile Testing">
+    </testcase>
+    <testcase name="Search for books should return multiple books with title Test" time="2.082" classname="should return multiple books with title Test">
+    </testcase>
+  </testsuite>
+</testsuites>
